@@ -1,0 +1,28 @@
+{
+  "session_id": "session_20250817_212916",
+  "created_at": "2025-08-17T21:29:28.595968",
+  "conversation_context": {},
+  "development_history": [
+    {
+      "timestamp": "21:29:28",
+      "action": "会话结束",
+      "details": "总对话轮次: 1, 总执行步骤: 1",
+      "result": "",
+      "conversation_turn": 1
+    }
+  ],
+  "user_preferences": {},
+  "conversation_summary": "=== 对话摘要 ===\n对话轮次: 1\n执行步骤: 1\n完成操作: 1个",
+  "messages": [
+    {
+      "role": "user",
+      "content": "开发能跟我对话的程序"
+    },
+    {
+      "role": "user",
+      "content": "\n基于当前对话上下文和开发进展，选择最合适的下一步行动：\n\n1. 如果用户需求不明确，使用 `ask_human` 工具提问澄清\n2. 如果需要执行代码或命令，使用相应的工具\n3. 如果需要编辑文件，使用 `str_replace_editor` 工具\n4. 如果当前步骤完成，总结进展并询问用户下一步计划\n5. 如果任务全部完成，使用 `terminate` 工具结束\n\n记住：\n- 保持对话的连贯性和上下文感知\n- 每次重要操作前都要解释你的思路\n- 优先确保用户理解和同意你的方案"
+    }
+  ],
+  "current_step": 1,
+  "current_conversation_turn": 1
+}
